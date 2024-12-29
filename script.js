@@ -1,7 +1,12 @@
-const menuToggle = document.getElementById("menuToggle");
-const menu = document.getElementById("menu");
+// Select hamburger button and navbar list
+const hamburgerMenu = document.getElementById('hamburgerMenu');
+const navbarList = document.getElementById('navbarList');
 
-// Tambahkan event listener untuk tombol toggle
-menuToggle.addEventListener("click", () => {
-    menu.classList.toggle("hidden"); // Toggle class 'hidden' pada menu
+// Toggle navbar visibility on hamburger click
+hamburgerMenu.addEventListener('click', () => {
+    if (navbarList.style.display === 'flex') {
+        navbarList.style.display = 'none';
+    } else {
+        navbarList.style.display = 'flex';
+    }
 });

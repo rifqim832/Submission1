@@ -3,74 +3,195 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Submission</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Responsive Navbar with Content</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Selamat Datang di Kabupaten Tuban</h1>
-      <nav>
-        <button id="menuToggle" aria-label="Toggle Menu">☰</button>
-        <ul id="menu" class="hidden">
-          <li><a href="#about">Sejarah</a></li>
-          <li><a href="#culture">Budaya</a></li>
-          <li><a href="#tourism">Wisata</a></li>
+      <div class="jumbotron">
+        <h1>Tuban</h1>
+        <p>
+          Tuban Kota Wali, karena Tuban adalah salah satu kota di Jawa yang
+          menjadi pusat penyebaran ajaran Agama Islam.
+        </p>
+      </div>
+      <nav class="navbar">
+        <button class="hamburger" id="hamburgerMenu">☰</button>
+        <ul class="nav-list" id="navbarList">
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#geografis">Geografis</a></li>
+          <li><a href="#wisata">Wisata</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="container">
-      <main>
-        <article id="about">
-          <h2>Tentang Kabupaten Tuban</h2>
+    <main>
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah</h2>
+          <img
+            src="assets/image/masjid-tuban.png"
+            alt="Sejarah"
+            class="featured-image"
+          />
           <p>
-            Kabupaten Tuban, terletak di pesisir utara Pulau Jawa, terkenal
-            dengan sebutan "Bumi Wali". Tuban memiliki kekayaan sejarah, budaya,
-            dan alam yang luar biasa.
+            Tuban memiliki asal usul dalam beberapa versi, pertama disebut
+            sebagai Tuban dari lakuran watu tiban (batu yang jatuh dari langit),
+            yaitu batu pusaka yang dibawa oleh sepasang burung dari Majapahit
+            menuju Demak, dan ketika batu tersebut sampai di atas Kota Tuban,
+            batu tersebut jatuh dan dinamakan Tuban. Saat ini wujud dari batu
+            tersebut (watu tiban) masih ada dan dalam kondisi yang relatif utuh
+            yang sekarang disimpan di Museum Kambang Putih, Tuban. Adapun versi
+            yang kedua berupa lakuran dari metu banyu berarti keluar air, yaitu
+            peristiwa ketika Raden Dandang Wacana (Kyai Gede Papringan) atau
+            Bupati Tuban yang pertama membuka hutan Papringan dan anehnya,
+            ketika pembukaan hutan tersebut keluar air yang sangat deras. Hal
+            ini juga berkaitan dengan adanya sumur tua yang dangkal tetapi
+            airnya melimpah, dan istimewanya sumur tersebut airnya tawar padahal
+            berada di dekat pantai. Ada juga versi ketiga, Tuban berasal dari
+            kata "tuba" atau racun yang artinya sama dengan nama kecamatan di
+            Tuban yaitu Kecamatan Jenu.
+          </p>
+
+          <p>
+            Pemerintahan Kabupaten Tuban ada sejak tahun 1293 atau sejak
+            pemerintahan Kerajaan Majapahit. Pusat pemerintahannya dulu adalah
+            di Desa Prunggahan Kulon, Kecamatan Semanding dan kota Tuban yang
+            sekarang dulunya adalah Pelabuhan karena dulu Tuban merupakan armada
+            Laut yang sangat kuat. Asal nama Tuban sudah ada sejak pemerintahan
+            Bupati Pertama yakni Raden Dandang Wacana. Namun, pencetusan tanggal
+            hari jadi Tuban berdasarkan peringatan diangkatnya Raden Haryo
+            Ronggolawe pada 12 November 1293. Tuban dulunya adalah tempat yang
+            paling penting dalam masa Kerajaan Majapahit karena berfungsi
+            sebagai pelabuhan dan portal utama, Dan menjadikannya sebagai hari
+            jadi kabupaten tuban hingga saat ini.
           </p>
         </article>
 
-        <article id="culture">
-          <h2>Budaya Lokal</h2>
+        <article id="geografis" class="card">
+          <h2>Geografis</h2>
+          <img
+            src="assets/image/kolam-kapur.jpg"
+            alt="Geografis"
+            class="featured-image"
+          />
           <p>
-            Budaya Tuban meliputi seni tradisional seperti Wayang Kulit, Tari
-            Remo, dan tradisi Sedekah Laut. Kekayaan budaya ini mencerminkan
-            kehidupan masyarakat Tuban yang religius dan harmonis. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Quaerat tenetur facere
-            culpa consectetur aut iure quae error, libero ipsa ab sapiente modi
-            repellendus quod deleniti soluta doloremque repudiandae. Similique
-            ad beatae iusto inventore. Quas eveniet doloremque suscipit repellat
-            esse exercitationem similique cupiditate modi, cum odit sint labore
-            ex totam consequatur saepe incidunt eos autem asperiores aspernatur.
-            Numquam officia totam maiores non repellendus temporibus vero. Culpa
-            sed alias voluptas voluptatem facere distinctio rerum aspernatur a
-            neque excepturi ducimus aliquam magni dolor, iure mollitia vel
-            explicabo beatae autem ab rem? Quibusdam eum laudantium consequatur
-            repudiandae natus sequi ipsam explicabo mollitia aliquid quo!
+            Pemerintahan Kabupaten Tuban ada sejak tahun 1293 atau sejak
+            pemerintahan Kerajaan Majapahit. Pusat pemerintahannya dulu adalah
+            di Desa Prunggahan Kulon, Kecamatan Semanding dan kota Tuban yang
+            sekarang dulunya adalah Pelabuhan karena dulu Tuban merupakan armada
+            Laut yang sangat kuat. Asal nama Tuban sudah ada sejak pemerintahan
+            Bupati Pertama yakni Raden Dandang Wacana. Namun, pencetusan tanggal
+            hari jadi Tuban berdasarkan peringatan diangkatnya Raden Haryo
+            Ronggolawe pada 12 November 1293. Tuban dulunya adalah tempat yang
+            paling penting dalam masa Kerajaan Majapahit karena berfungsi
+            sebagai pelabuhan dan portal utama, Dan menjadikannya sebagai hari
+            jadi kabupaten tuban hingga saat ini.
+          </p>
+
+          <p>
+            Kabupaten Tuban mempunyai topografi perbukitan batu gamping dengan
+            struktur geologi artiklin besar memanjang dari arah barat ke timur.
+            Ketinggian daratan daerah di Kabupaten Tuban berkisar antara 0-500
+            meter di atas permukaan laut. Bagian utara dan selatan Kabupaten
+            Tuban berupa dataran rendah dengan ketinggian 0-15 meter di atas
+            permukaan laut yang terdapat di sekitar pantai dan sepanjang sungai
+            Bengawan Solo. Daerah dengan ketinggian di atas 100 meter di atas
+            permukaan laut terdapat di wilayah Kecamatan Montong dan Kecamatan
+            Grabagan.
           </p>
         </article>
 
-        <article id="tourism">
-          <h2>Destinasi Wisata</h2>
+        <article id="wisata" class="card">
+          <h2>Wisata</h2>
           <p>
-            Tuban menawarkan berbagai destinasi wisata seperti Pantai Boom, Goa
-            Akbar, dan Pemandian Air Panas Prataan. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Ipsam velit ut recusandae ab nulla,
-            impedit temporibus animi aut ratione omnis?
+            Tuban bisa jadi destinasi wisata keluarga saat mudik di daerah Jawa
+            Timur. Ada banyak tempat wisata di Tuban yang cocok untuk keluarga,
+            dari wisata alam sampai wisata kebhinekaan (rumah ibadah).
+          </p>
+
+          <h3>Farm House Lembang</h3>
+          <img
+            src="assets/image/farm-house.jpg"
+            alt="Farm House Lembang"
+            class="featured-image"
+          />
+          <p>
+            Berada di jalur utama Bandung-Lembang, Farm House menjadi objek
+            wisata yang tidak pernah sepi pengunjung. Selain karena letaknya
+            strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa.
+            Semua itu diterapkan dalam bentuk spot swafoto Instagramable.
+          </p>
+
+          <h3>Observatorium Bosscha</h3>
+          <img
+            src="assets/image/bosscha.jpg"
+            alt="Bosscha"
+            class="featured-image"
+          />
+          <p>
+            Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss,
+            Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop
+            Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk
+            meneropong bintang. Benda ini diletakkan pada atap kubah sehingga
+            saat teropong digunakan, atap tersebut harus dibuka. Observatorium
+            Bosscha boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi
+            yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri.
+            Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa
+            sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari
+            Sabtu.
           </p>
         </article>
-      </main>
-
+      </div>
       <aside>
-        <h3>Foto Kabupaten Tuban</h3>
-        <img src="img/logo-tuban.png" alt="Foto Kabupaten Tuban" />
+        <article class="profile" class="card">
+          <header>
+            <h2>Kota Bandung</h2>
+            <p>Kota Kembang Paris van Java</p>
+            <figure>
+              <img src="assets/image/logo-tuban.png" alt="Tuban" />
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
+          <section>
+            <h3>Informasi Lainnya</h3>
+
+            <table>
+              <tr>
+                <th>Negara</th>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <th>Hari jadi</th>
+                <td>25 September 1810</td>
+              </tr>
+              <tr>
+                <th>Luas Total</th>
+                <td>167.67 km<sup>2</sup></td>
+              </tr>
+              <tr>
+                <th>Bahasa Daerah</th>
+                <td>Sunda</td>
+              </tr>
+              <tr>
+                <th>Kode Telepon</th>
+                <td>+62 22</td>
+              </tr>
+            </table>
+          </section>
+        </article>
       </aside>
-    </div>
+    </main>
 
     <footer>
-      <p>&copy; 2024 Informasi Kabupaten Tuban. All Rights Reserved.</p>
+      <p>Belajar Dasar Pemrogramman Web &copy;2024, Dicoding Academy</p>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
