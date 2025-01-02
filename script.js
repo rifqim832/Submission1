@@ -11,8 +11,15 @@ hamburgerMenu.addEventListener('click', () => {
     }
 });
 
+// Click outside the dropdown to hide the menu
+window.addEventListener('click', function (event) {
+    if (!event.target.matches('#hamburgerMenu')) {
+        navbarList.style.display = 'none';
+    }
+});
 
-// slide jumbotron image
+
+// display jumbotron slide image
 var slideIndex = 1;
 showSlides(slideIndex);
 
