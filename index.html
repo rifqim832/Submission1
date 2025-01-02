@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar with Content</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page Tuban</title>
+    <link rel="stylesheet" href="assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,11 +15,35 @@
   <body>
     <header>
       <div class="jumbotron">
-        <h1>Tuban</h1>
-        <p>
-          Tuban Kota Wali, karena Tuban adalah salah satu kota di Jawa yang
-          menjadi pusat penyebaran ajaran Agama Islam.
-        </p>
+        <div class="text">
+          <h1>TUBAN</h1>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/image/kwansingbio.png" class="slide-image" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/image/masjid-tuban.png" class="slide-image" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/image/kolam-kapur.jpg" class="slide-image" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/image/pelang.png" class="slide-image" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/image/remen.png" class="slide-image" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/image/nlgirip.png" class="slide-image" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <nav class="navbar">
         <button class="hamburger" id="hamburgerMenu">☰</button>
@@ -116,44 +140,67 @@
             dari wisata alam sampai wisata kebhinekaan (rumah ibadah).
           </p>
 
-          <h3>Farm House Lembang</h3>
+          <h3>Klenteng Kwan Sing Bio</h3>
           <img
-            src="assets/image/farm-house.jpg"
-            alt="Farm House Lembang"
+            src="assets/image/kwansingbio.png"
+            alt="Kwan-Sing-Bio"
             class="featured-image"
           />
           <p>
-            Berada di jalur utama Bandung-Lembang, Farm House menjadi objek
-            wisata yang tidak pernah sepi pengunjung. Selain karena letaknya
-            strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa.
-            Semua itu diterapkan dalam bentuk spot swafoto Instagramable.
+            Bangunan Kelenteng Kwan Sing Bio berada di pinggir jalan raya
+            Pantura dan langsung menghadap ke laut. Sehingga kelenteng ini juga
+            memiliki keistimewaan karena menjadi satu-satunya klenteng di Asia
+            Tenggara yang dibangun menghadap ke laut.
           </p>
 
-          <h3>Observatorium Bosscha</h3>
+          <h3>Wisata Pelang dan Kebun Sagu</h3>
           <img
-            src="assets/image/bosscha.jpg"
-            alt="Bosscha"
+            src="assets/image/pelang.png"
+            alt="Pelang"
             class="featured-image"
           />
           <p>
-            Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss,
-            Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop
-            Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk
-            meneropong bintang. Benda ini diletakkan pada atap kubah sehingga
-            saat teropong digunakan, atap tersebut harus dibuka. Observatorium
-            Bosscha boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi
-            yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri.
-            Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa
-            sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari
-            Sabtu.
+            Wisata Pelang merupakan area perkebunan sagu di Desa Pelang dengan
+            sungai jernih dan ikan yang berwarna-warni. Aktivitas wisata yang
+            dapat dilakukan di sini adalah terapi ikan dengan langsung
+            mencelupkan kaki ke kolam, memberi makan ikan, berfoto di area kebu
+            sagu, menikmati makanan olahan sagu.
+          </p>
+
+          <h3>Pantai Pasir Putih Remen</h3>
+          <img
+            src="assets/image/remen.png"
+            alt="Pantai-Remen"
+            class="featured-image"
+          />
+          <p>
+            Seperti namanya, pantai ini memiliki pasir putih yang membuat
+            panorama alamnya semakin menawan. Namun pasir putih ini bukan
+            terbentuk secara alami. Pasir putih muncul akibat penghancuran
+            karang di sekitar pabrik untuk pembangunan dermaga. Penduduk sekitar
+            kemudian membersihkan pantai sehingga terlihat semakin menarik.
+          </p>
+
+          <h3>Air Terjun Nglirip</h3>
+          <img
+            src="assets/image/nlgirip.png"
+            alt="Pantai-Remen"
+            class="featured-image"
+          />
+          <p>
+            Air Terjun Nglirip tampak mempesona dilihat dari segala sudut.
+            Airnya yang jernih membuat pengunjung ingin bermain air di tempat
+            ini. Pada musim kemarau, air terjun akan berwarna tosca. Sedangkan
+            pada musim hujan, air terjun akan berwarna coklat namun tidak
+            mengurangi keindahan objek wisata alam ini.
           </p>
         </article>
       </div>
       <aside>
         <article class="profile" class="card">
           <header>
-            <h2>Kota Bandung</h2>
-            <p>Kota Kembang Paris van Java</p>
+            <h2>Kota Tuban</h2>
+            <p>Kota Bumi Wali</p>
             <figure>
               <img src="assets/image/logo-tuban.png" alt="Tuban" />
               <figcaption>Lambang</figcaption>
@@ -169,15 +216,15 @@
               </tr>
               <tr>
                 <th>Hari jadi</th>
-                <td>25 September 1810</td>
+                <td>12 November 1293</td>
               </tr>
               <tr>
                 <th>Luas Total</th>
-                <td>167.67 km<sup>2</sup></td>
+                <td>1.904,70 km<sup>2</sup></td>
               </tr>
               <tr>
                 <th>Bahasa Daerah</th>
-                <td>Sunda</td>
+                <td>Jawa</td>
               </tr>
               <tr>
                 <th>Kode Telepon</th>
@@ -190,7 +237,7 @@
     </main>
 
     <footer>
-      <p>Belajar Dasar Pemrogramman Web &copy;2024, Dicoding Academy</p>
+      <p>Landing Page Kota Tuban &copy;2024, Rifqi</p>
     </footer>
     <script src="script.js"></script>
   </body>
