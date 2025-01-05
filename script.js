@@ -2,20 +2,10 @@
 const hamburgerMenu = document.getElementById('hamburgerMenu');
 const navbarList = document.getElementById('navbarList');
 
+
 // Toggle navbar visibility on hamburger click
 hamburgerMenu.addEventListener('click', () => {
-    if (navbarList.style.display === 'flex') {
-        navbarList.style.display = 'none';
-    } else {
-        navbarList.style.display = 'flex';
-    }
-});
-
-// Click outside the dropdown to hide the menu
-window.addEventListener('click', function (event) {
-    if (!event.target.matches('#hamburgerMenu')) {
-        navbarList.style.display = 'none';
-    }
+    navbarList.classList.toggle('active')
 });
 
 
